@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+ 
+header {
+    background-color: #76c7c0;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+ 
+.baner h1 {
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px #333;
+}
+ 
+.baner p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+ 
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+ 
+.galeria h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+    text-transform: uppercase;
+}
+ 
+.siatka-zwierzat {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+ 
+.karta-zwierzecia {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 20px;
+}
+ 
+.karta-zwierzecia:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+ 
+.karta-zwierzecia img {
+    width: 100%;
+    border-radius: 10px;
+}
+ 
+.karta-zwierzecia h3 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #333;
+}
+ 
+.karta-zwierzecia p {
+    font-size: 18px;
+    color: #777;
+}
+
+.karta-zwierzecia2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 20px;
+}
+ 
+.karta-zwierzecia2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+ 
+.karta-zwierzecia2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+ 
+.karta-zwierzecia2 h3 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #333;
+}
+ 
+.karta-zwierzecia2 p {
+    font-size: 18px;
+    color: #777;
+}
+ 
+.przycisk-adoptuj {
+    padding: 10px 20px;
+    background-color: #76c7c0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+.przycisk-adoptuj:hover {
+    background-color: #5da29e;
+}
+ 
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+ 
+.stopka p {
+    font-size: 14px;
+}
+ 
+ 
+ 
